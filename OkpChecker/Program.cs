@@ -13,7 +13,7 @@ var buffer = new byte[]
 var server = "prod01.okp-fn.ru";
 var port = 26101;
 
-var timeout = 5000;
+var timeout = 30000;
 
 Console.WriteLine($"Сформирован тестовый пакет к отправке размером {buffer.Length} байт:");
 Console.WriteLine(BitConverter.ToString(buffer));
